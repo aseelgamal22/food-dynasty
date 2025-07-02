@@ -1,0 +1,198 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.section-one{
+margin-top: 2rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+    background-color: aqua;
+    gap: 16rem;
+    width: 92%;
+    height: 75vh;
+    
+    
+    align-items: center;
+}
+.sec-delicious{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 2rem;
+    
+}
+   .burgerofsectionone img{
+
+width: 520px;
+height: 520px;
+
+   }
+   .section-one-col{
+display: flex;
+flex-direction: column;
+gap: 7rem;
+
+
+   }
+   .first-section{
+    display: flex;
+    justify-content: center;
+   }
+   .section-one-btns{
+    display: flex;
+    gap: 2.5rem;
+   }
+   .section-one-btns img{
+    width: 120px;
+    height: 40px;
+
+   }
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.section2-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.sec2-video img{
+    width: 670px;
+    height: 400px;
+}
+.sec2-justify{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.section2-para{
+    width: 30%;
+}
+.section-3{
+    margin-top: 5rem;
+}
+.sec3-images img{
+width:320px;
+height: 320px;
+}
+.popular{
+    padding-left: 3rem;
+}
+.sec3-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+    width:92%;
+        
+
+   
+    
+    
+}
+.whole{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 92%;
+}
+.image-see-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+       
+    width: 92%;
+
+}
+.section4 h2{
+
+font-size: 60px;
+color: rgb(128, 6, 6);
+
+}
+.sec4justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 2rem;
+    
+}
+.flex-chicken-alfredo{
+    display: flex;
+    flex-direction: column;
+    font-size:xx-large
+}
+.flex-img-sec4{
+    display: flex;
+    gap: 4rem;
+}
+.flex-img-sec4 img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+
+}
+.fourth-sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.third-sec-4{
+    display: flex;
+    justify-content: space-between;
+}
+.button-dollar{
+    display: flex;
+    gap: 3rem;
+    color: rgb(70, 2, 2);
+    font-size: larger;
+    font-weight:500;
+}
+.red-box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(148, 11, 11);
+    border-radius: 0.7rem;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.justify-boxes{
+    display: flex;
+    gap: 2rem;
+    
+}
+.btn4 img{
+
+width: 150px;
+height: 45px;
+}
