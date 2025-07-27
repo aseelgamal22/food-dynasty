@@ -1,0 +1,28 @@
+.search {
+    background: #ffeded;
+    border: none;
+    border-radius: 5em;
+    height: 30px;
+    padding-inline-start: 5em;
+}
+.search-svg {
+    transform: translate(1rem,2rem); //(x,y)
+}
+.t_s {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.backgroundofmenu {
+    background: #f8efe8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 1em;
+}
