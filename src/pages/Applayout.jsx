@@ -18,7 +18,7 @@ export default function
           
           <Outlet />
           
-          <div>footer</div>
+          <div className='footer'>footer</div>
 
 
 

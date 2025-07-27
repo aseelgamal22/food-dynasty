@@ -1,6 +1,14 @@
 import React from 'react'
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 export default function () {
+  
+  
+
+
+ 
+
   return (
     <div>
 
@@ -10,6 +18,7 @@ export default function () {
           <div className='section-one-col'>
             <div className='sec-delicious'>
               <div> <h1>Delicious Food Is </h1>
+                
                 <h2>Waiting For You</h2>
               </div>
               <div className='section-one-col2'>
@@ -141,10 +150,98 @@ export default function () {
       </div>
       </section>
 
-      <section>
+      <section className='section-5'>
+        <div className='rest-images'>
+          restaurant images
+        </div>
+        <div className='sec5-images'>
+          <div className='sec5-firstimg'> <img src="./image (9).png" alt="" /></div>
+         <div className='sec5-secimg'>  <img src="./image (10).png" alt="" />
+          <img src="./image (11).png" alt="" /></div>
+        
+        </div>
+        <div className='believe-txt'>
+          we believe in making quality food
+        </div>
+        <div className='customer-big-div'>
+    <div className='million'>
+      <div>2M+</div>
+      <div>happy cutomers</div>
+    </div>
+ <div className='million'>
+      <div>98%</div>
+      <div>customer satisfaction</div>
+    </div>
+     <div className='million'>
+      <div>20+</div>
+      <div>our branches</div>
+    </div>
+     <div className='million'>
+      <div>100+</div>
+      <div>total employees</div>
+    </div>
+
+
+        </div>
 
         
       </section>
+
+      <section className='sec6'>
+        <h2>What Our Clients Are Saying</h2>
+        <div className='gray-div'>
+        <div className='gray-frame'>
+
+<div><img src="./Frame.png" alt="" /></div>
+<div>
+  this is the best Lorem ipsum dolor sit amet, consectettationem quiora epe!
+</div>
+
+
+
+        </div>
+          <div className='gray-frame'>
+
+<div><img src="./Frame.png" alt="" /></div>
+<div>
+  this is the best Lorem ipsum dolor sit amet, consectettationem quiora epe!
+</div>
+
+
+
+        </div>
+          <div className='gray-frame'>
+
+<div><img src="./Frame.png" alt="" /></div>
+<div>
+  this is the best Lorem ipsum dolor sit amet, consectettationem quiora epe!
+</div>
+
+
+
+        </div>
+        </div>
+      </section>
+      <section className='sec7'>
+        <div>
+        <h2>Our Restaurant</h2>
+        <h2>Where to find us</h2>
+        <div>
+          we have a superb meal in an expextional setting with family
+          friends or work colleagues,here are the addresses of our restaurants
+        </div>
+        <div className='sec7-button'>
+
+        </div>
+        </div>
+        <div className='map'>
+
+        </div>
+
+
+        
+      </section>
+
 
     </div>
   )
