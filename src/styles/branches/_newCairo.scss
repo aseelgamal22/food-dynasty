@@ -1,0 +1,100 @@
+
+.maincard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+    background: #f8efe8;
+    border-radius: 1em;
+  
+    .branch-details {
+      max-width: 50%;
+  
+      h2 {
+        color: #450402;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+      }
+  
+      p {
+        margin: 0.5em 0;
+        font-size: 1em;
+        font-weight: 500;
+  
+        .icon {
+          margin-right: 0.5em;
+        }
+      }
+  
+      .btnofcard {
+        display: flex;
+        gap: 1em;
+        margin-top: 1em;
+  
+        .call {
+          background: #450402;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          height: 2.5em;
+          width: 8em;
+          border-radius: 0.5em;
+          font-weight: bold;
+        }
+  
+        .directions {
+          background: transparent;
+          color: #450402;
+          border: 2px solid #450402;
+          cursor: pointer;
+          height: 2.5em;
+          width: 8em;
+          border-radius: 0.5em;
+          font-weight: bold;
+        }
+      }
+    }
+  
+    .branch-images {
+      position: relative;
+      width: 40%;
+      height: 300px;
+  
+      .img {
+        border-radius: 50%;
+        position: absolute;
+        object-fit: cover;
+  
+        &.img1 {
+          top: 0;
+          right: 0;
+          width: 80px;
+          height: 80px;
+        }
+  
+        &.img2 {
+          top: 80px;
+          right: 50px;
+          width: 120px;
+          height: 120px;
+        }
+  
+        &.img3 {
+          bottom: 0;
+          right: 0;
+          width: 70px;
+          height: 70px;
+        }
+  
+        &.img4 {
+          bottom: 0;
+          right: 120px;
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+  
