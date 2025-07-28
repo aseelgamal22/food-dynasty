@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MaadiBranch() {
+export default function MaadiBranches() {
   return (
       <main className="maincard">
           <div className="branch-details">

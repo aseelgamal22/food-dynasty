@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/components/_ChefRecommended.scss";
+
 
 export default function ChefRecommended() {
     return (

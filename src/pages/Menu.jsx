@@ -1,11 +1,11 @@
 import React from "react";
-import "../style/menu/_menu.scss";
+
 import BeefBurgerCard from "../components/BeefBurgerCard";
-import PizzaCard from "../components/PizzaCard";
-import PastaCard from "../components/PastaCard";
+import BizzaCard from "../components/BizzaCard";
+import BastaCard from "../components/BastaCard";
 import ChefRecommended from "../components/ChefRecommended";
 import { AiOutlineSearch } from "react-icons/ai";
-import Navbar from "../components/Navbar";
+
 
 export default function Menu() {
     return (
@@ -32,21 +32,21 @@ export default function Menu() {
             </div>
             <h1>Pizza</h1>
             <div className="backgroundofmenu">
-                <PizzaCard />
-                <PizzaCard />
-                <PizzaCard />
-                <PizzaCard />
-                <PizzaCard />
-                <PizzaCard />
+                <BizzaCard />
+                <BizzaCard />
+                <BizzaCard />
+                <BizzaCard />
+                <BizzaCard />
+                <BizzaCard />
             </div>
             <h1>Pasta</h1>
             <div className="backgroundofmenu">
-                <PastaCard />
-                <PastaCard />
-                <PastaCard />
-                <PastaCard />
-                <PastaCard />
-                <PastaCard />
+                <BastaCard />
+                <BastaCard />
+                <BastaCard />
+                <BastaCard />
+                <BastaCard />
+                <BastaCard />
             </div>
             <ChefRecommended />
         </main>

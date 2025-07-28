@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/components/_pizzacard.scss'
+
 import { MdAddShoppingCart } from "react-icons/md";
 
 export default function PizzaCard() {

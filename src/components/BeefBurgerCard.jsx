@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/components/_beefburgercard.scss";
 import { MdAddShoppingCart } from "react-icons/md";
 
 export default function BeefBurgerCard() {

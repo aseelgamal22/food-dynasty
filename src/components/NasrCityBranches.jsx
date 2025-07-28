@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NasrCityBranch() {
+export default function NasrCityBranches() {
   return (
       <main className="maincard">
           <div className='branch-details'>
