@@ -1,8 +1,8 @@
 import React from 'react'
 import { MdAddShoppingCart } from "react-icons/md";
-import '../style/components/_pastacard.scss'
 
-export default function PastaCard() {
+
+export default function BastaCard() {
   return (
     <main>
         <div className='thecard'>

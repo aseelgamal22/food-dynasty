@@ -1,7 +1,7 @@
 import React from "react";
-import "../style/branches/_newcairo.scss";
 
-export default function NewCairoBranch() {
+
+export default function NewCairoBranches() {
     return (
         <main className="maincard">
             <div className="branch-details">
